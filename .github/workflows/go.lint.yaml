@@ -3,7 +3,7 @@ run-name: ${{ github.ref_name }} by @${{ github.actor }}
 on:
   pull_request:
     paths:
-      - .github/workflows/lint.yaml
+      - .github/workflows/go.lint.yaml
       - .golangci.yaml
       - "**/*.go"
 jobs:
