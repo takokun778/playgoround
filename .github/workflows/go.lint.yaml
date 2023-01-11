@@ -1,5 +1,5 @@
 name: go lint
-run-name: go lint ${{ github.ref_name }} by @${{ github.actor }}
+run-name: ${{ github.ref_name }} by @${{ github.actor }}
 on:
   pull_request:
     paths:
