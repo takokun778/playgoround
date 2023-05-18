@@ -61,13 +61,9 @@ up: ## docker compose up with air hot reload
 down: ## docker compose down
 	@docker compose --project-name ${APP_NAME} down
 
-.PHONY: log
-log: ## docker log
-	@docker logs ${APP_NAME}-app
-
 .PHONY: psql
 psql:
-	@docker exec -it ${APP_NAME}-db psql -U postgres
+	@docker exec -it ${APP_NAME}-postgres psql -U postgres
 
 .PHONY: image
 image: ## ko build image
