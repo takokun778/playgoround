@@ -3,7 +3,7 @@ module github.com/takokun778/playgoround
 go 1.19
 
 require (
-	github.com/slack-go/slack v0.12.2
+	github.com/slack-go/slack v0.15.0
 	go.uber.org/zap v1.24.0
 )
 
