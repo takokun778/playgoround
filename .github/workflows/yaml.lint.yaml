@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup aqua
-        uses: aquaproj/aqua-installer@v3.0.2
+        uses: aquaproj/aqua-installer@v3.1.0
         with:
           aqua_version: v2.2.2
       - name: Setup tool
